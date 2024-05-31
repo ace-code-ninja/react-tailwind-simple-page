@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+
+/* Additional styles */
+@import 'tailwindcss/utilities';
+
+.button-shadow {
+  box-shadow: 0px 3px 10px 0px rgba(7, 5, 107, 0.2);
+}
+
+.card-shadow {
+  box-shadow: 0px 4px 18px 0px rgba(75, 70, 92, 0.1);
+}
+
+.feature-box {
+  transition: background-color 0.3s;
+  position: relative;
+
+  &::before,
+  &::after {
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-radius: 0.25rem;
+    border: 2px solid transparent;
+  }
+
+  &::before {
+    left: -2px;
+    top: -2px;
+  }
+
+  &::after {
+    right: -2px;
+    bottom: -2px;
+  }
+
+  &:hover {
+    background-color: rgba(#5863f8, 0.1);
+
+    &::before,
+    &::after {
+      width: calc(100% + 4px);
+      height: calc(100% + 4px);
+    }
+
+    &::before {
+      transition:
+        width 0.2s linear,
+        height 0.2s linear 0.2s;
+      border-top-color: #5863f8;
+      border-right-color: #5863f8;
+    }
+
+    &::after {
+      transition:
+        width 0.2s linear 0.4s,
+        height 0.2s linear 0.6s;
+      border-bottom-color: #5863f8;
+      border-left-color: #5863f8;
+    }
+  }
+}
+
+// Carousel Additional Class
+
+.slick-next:before,
+.slick-prev:before {
+  color: #000;
+}
+
+.slick-slider {
+  height: 100%;
+
+  .slick-list {
+    height: 100%;
+
+    .slick-track {
+      height: 100%;
+
+      .slick-slide {
+        height: 100%;
+
+        div {
+          height: 100%;
+          .center-card {
+            padding: 12px;
+            width: 300px !important;
+          }
+        }
+      }
+
+      .slick-center {
+        height: 100%;
+        transform: scale(1.33);
+        transition: all 0.1s ease;
+      }
+    }
+  }
+}

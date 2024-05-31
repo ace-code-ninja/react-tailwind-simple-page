@@ -1,0 +1,163 @@
+{
+  "landingPage": {
+    "menuData": [
+      {
+        "list": [
+          {
+            "id": 1,
+            "name": "Item #1",
+            "value": "1"
+          },
+          {
+            "id": 2,
+            "name": "Item #2",
+            "value": "2"
+          },
+          {
+            "id": 3,
+            "name": "Item #3",
+            "value": "3"
+          }
+        ],
+        "title": "Collection #1"
+      },
+      {
+        "list": [
+          {
+            "id": 1,
+            "name": "Item #1",
+            "value": "1"
+          },
+          {
+            "id": 2,
+            "name": "Item #2",
+            "value": "2"
+          },
+          {
+            "id": 3,
+            "name": "Item #3",
+            "value": "3"
+          }
+        ],
+        "title": "Collection #2"
+      },
+      {
+        "list": [
+          {
+            "id": 1,
+            "name": "Item #1",
+            "value": "1"
+          },
+          {
+            "id": 2,
+            "name": "Item #2",
+            "value": "2"
+          },
+          {
+            "id": 3,
+            "name": "Item #3",
+            "value": "3"
+          }
+        ],
+        "title": "Collection #3"
+      }
+    ],
+    "showcaseData": [
+      {
+        "imageLink": "T_Shirt_1",
+        "name": "T-Shirt"
+      },
+      {
+        "imageLink": "T_Shirt_2",
+        "name": "T-Shirt"
+      },
+      {
+        "imageLink": "T_Shirt_3",
+        "name": "T-Shirt"
+      },
+      {
+        "imageLink": "Cup_1",
+        "name": "Cup"
+      },
+      {
+        "imageLink": "Cup_2",
+        "name": "Cup"
+      },
+      {
+        "imageLink": "Cup_3",
+        "name": "Cup"
+      }
+    ],
+    "about": {
+      "title": "About Designer",
+      "description": "Each and every block uses minimal custom styling and is based on the utility first Tailwind framework."
+    }
+  },
+  "designPage": {
+    "carouselData": [
+      {
+        "imageLink": "T_Shirt_1",
+        "name": "T-Shirt"
+      },
+      {
+        "imageLink": "T_Shirt_2",
+        "name": "T-Shirt"
+      },
+      {
+        "imageLink": "T_Shirt_3",
+        "name": "T-Shirt"
+      },
+      {
+        "imageLink": "Cup_1",
+        "name": "Cup"
+      },
+      {
+        "imageLink": "Cup_2",
+        "name": "Cup"
+      },
+      {
+        "imageLink": "Cup_3",
+        "name": "Cup"
+      }
+    ],
+    "designDescription": {
+      "title": "Description of design",
+      "description": " Each and every block uses minimal custom styling and is based on the utility first Tailwind framework.",
+      "button_name": "Learn More",
+      "item": [
+        {
+          "description": "FWR blocks bring in an air of fresh design with their creative layouts and blocks, which are easily customizable.",
+          "icon_name": "bolt",
+          "title": "Fresh Design"
+        },
+        {
+          "description": "FWR blocks are the cleanest pieces of HTML blocks, which are built with utmost care to quality and usability.",
+          "icon_name": "code",
+          "title": "Clean Code"
+        },
+        {
+          "icon_name": "driver",
+          "description": "FWR blocks is a perfect tool for designers, developers and agencies looking to create stunning websites in no time.",
+          "title": "Perfect Tool"
+        }
+      ]
+    },
+    "materialCategory": [
+      {
+        "id": 1,
+        "name": "T-Shirt",
+        "value": "1"
+      },
+      {
+        "id": 2,
+        "name": "Cup",
+        "value": "2"
+      },
+      {
+        "id": 3,
+        "name": "Sticker",
+        "value": "3"
+      }
+    ]
+  }
+}

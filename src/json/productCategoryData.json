@@ -1,0 +1,141 @@
+{
+  "t_shirt": {
+    "size": [
+      {
+        "name": "Size",
+        "category": [
+          {
+            "id": 1,
+            "name": "XXXL",
+            "value": "1"
+          },
+          {
+            "id": 2,
+            "name": "XXL",
+            "value": "2"
+          },
+          {
+            "id": 3,
+            "name": "XL",
+            "value": "3"
+          },
+          {
+            "id": 4,
+            "name": "L",
+            "value": "4"
+          },
+          {
+            "id": 5,
+            "name": "M",
+            "value": "5"
+          },
+          {
+            "id": 6,
+            "name": "S",
+            "value": "6"
+          }
+        ]
+      }
+    ],
+    "color": [
+      {
+        "name": "Color",
+        "category": [
+          {
+            "id": 1,
+            "name": "Red",
+            "value": "1"
+          },
+          {
+            "id": 2,
+            "name": "Blue",
+            "value": "2"
+          },
+          {
+            "id": 3,
+            "name": "Green",
+            "value": "3"
+          },
+          {
+            "id": 4,
+            "name": "Black",
+            "value": "4"
+          },
+          {
+            "id": 5,
+            "name": "White",
+            "value": "5"
+          }
+        ]
+      }
+    ]
+  },
+  "cup": {
+    "color": [
+      {
+        "name": "Color",
+        "category": [
+          {
+            "id": 1,
+            "name": "Red",
+            "value": "1"
+          },
+          {
+            "id": 2,
+            "name": "Blue",
+            "value": "2"
+          },
+          {
+            "id": 3,
+            "name": "Green",
+            "value": "3"
+          },
+          {
+            "id": 4,
+            "name": "Black",
+            "value": "4"
+          },
+          {
+            "id": 5,
+            "name": "White",
+            "value": "5"
+          }
+        ]
+      }
+    ]
+  },
+  "sticker": {
+    "color": [
+      {
+        "name": "Color",
+        "category": [
+          {
+            "id": 1,
+            "name": "Red",
+            "value": "1"
+          },
+          {
+            "id": 2,
+            "name": "Blue",
+            "value": "2"
+          },
+          {
+            "id": 3,
+            "name": "Green",
+            "value": "3"
+          },
+          {
+            "id": 4,
+            "name": "Black",
+            "value": "4"
+          },
+          {
+            "id": 5,
+            "name": "White",
+            "value": "5"
+          }
+        ]
+      }
+    ]
+  }
+}
